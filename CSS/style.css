@@ -1,0 +1,1040 @@
+/* ==================================== extra css ================================= */
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white url(../images/preloader2.gif) no-repeat center;
+    z-index: 10000;
+}
+
+.topbtn{
+    text-decoration: none;
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    color: #cda45e;
+    font-size: 20px;
+    transform: rotate(90deg);
+    z-index: 1000;
+    display: none;
+}
+
+.topbtn:hover{
+    color: darkslategrey;
+}
+
+
+/* ============================== Navbar Starts here ======================================= */
+
+
+.header{
+    background-color: #000000b0;
+    padding: 8px 0;
+    border-bottom: 0.2px solid #cda45e5d;
+}
+
+.header .restaurant{
+    font-family: crimson Text;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.header .collapse{
+    margin-left: -2%;
+}
+
+.header .nav-item a{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px !important;
+}
+
+.header .navbar ul li
+ a{
+    color: white;
+}
+
+.header .navbar ul li
+ a:hover{
+    color: #cda45e;
+    transform: scale(1.1);
+ }
+
+.header .fa-bars{
+    color: white;
+    font-size: 25px;
+}
+
+.header .dropdown-menu ul li a{
+    color: black;
+}
+
+.header .book{
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 14px;
+    border: 2px solid #cda45e;
+    padding: 8px 30px !important;
+}
+
+.header .book:hover{
+    background-color: #cda45e !important;
+}
+
+
+
+
+/* ========================================
+section 1 starts here ===================================== */
+
+.section1{
+    background-image: url("../images/main\ background.jpg");
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section1 .carousel-inner{
+    padding: 230px 0 100px 0;
+}
+
+.section1 .carousel-indicators button{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid wheat;
+}
+
+.section1 .carousel-indicators button:hover{
+    background-color: rgb(48, 48, 55);
+}
+
+                /* -------- data 1 -------- */
+
+
+
+.section1 .data1{
+    padding-left: 5%;
+}
+
+.section1 .data1 .image1{
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    animation: coconut 15s linear infinite alternate;
+}
+
+@keyframes coconut{
+    0%{
+        top: -20%;
+        left: 20%;
+    }
+    25%{
+        left: 30%;
+        top: -20%;
+    }
+    50%{
+        top: -10%;
+        left: 30%;
+    }
+    75%{
+        top: -10%;
+        left: 20%;
+    }
+    100%{
+        left: 20%;
+        top: -20%;
+    }
+    
+}
+
+.section1 .data1 h1{
+    height: auto;
+    font-size: clamp(30px, 4vw, 70px);
+    font-family: crimson Text;
+    font-weight: 600;
+}
+
+.section1 .data1 h2{
+    font-size: clamp(25px, 4vw, 60px);
+    font-family: crimson Text;
+    color: transparent;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.section1 .data1 p{
+    color: #bfbfbf;
+    font-size: clamp(14px 2vw 18px);
+    font-family: "Nunito";
+    margin-bottom: 60px;
+}
+
+.hover_btn{
+    padding: 15px 35px;
+    background-color: #cda45e;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Nunito";
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.hover_btn::before{
+    content: '';
+    position: absolute;
+    top: 20;
+    left: 20;
+    height: 0;
+    width: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color: rgb(194, 97, 97);
+    transition: width 0.5s, height 0.5s;
+}
+
+.hover_btn span{
+    position: relative;
+    color: white;
+    z-index: 2;
+    transition: all 0.2s linear;
+}
+
+.hover_btn:hover::before{
+    height: 400px;
+    width: 400px;
+}
+
+.hover_btn:hover span{
+    color: black;
+}
+
+.section1 .data1 .image2{
+    position: absolute;
+    bottom: -50px;
+    left: 2%;
+    animation: tomoto 5s linear infinite alternate;
+    width: 10%;
+}
+
+@keyframes tomoto{
+    from{
+        transform: rotate(-15deg);
+        left: 2%;
+    }
+    to{
+        transform: rotate(30deg);
+        left: 5%;
+    }
+}
+
+
+
+                /* -------- data 2 ------- */
+
+
+.section1 .data2{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .data2 .image1{
+    width: 95%;
+    z-index: 1;
+    position: absolute;
+    animation: rotat 180s linear infinite;
+}
+
+@keyframes rotat{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.section1 .data2 .image2{
+    width: 82%;
+    position: relative;
+    z-index: 4;
+} 
+
+
+/* =========================================
+section 2 starts here =========================================== */
+
+.section2{
+    background-image: linear-gradient(to bottom, #161616,#3d0e0e, #0b1315);
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.section2 .data1 h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 57px;
+    margin-bottom: 40px;
+}
+
+
+.section2 .data1 p{
+    font-size: 18px;
+    font-family: "Nunito";
+    line-height: 35px;
+    margin-right: 18%;
+}
+
+.section2 .data1 .para2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+            /* ------ inside 1 ------- */
+
+.section2 .data1 .inside1{
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.section2 .data1 .inside1 h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+}
+
+.section2 .data1 .inside1 .in{
+    margin: 10px 0;
+}
+
+.section2 .data1 .inside1 .days,.timing{
+    font-size: 18px;
+    width: 30%;
+}
+
+.section2 .data1 .inside1 .marker{
+    width: 35%;
+    height: 20px;
+    border-bottom: 1px solid white;
+}
+
+.section2 .data1 a{
+    padding: 15px 30px;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 20px;
+    color: white;
+    background-color: #cda45e;
+    letter-spacing: 1px;
+}
+
+
+            /* ------- data 2 ------ */
+
+            
+.section2 .data2{
+    border-top: 3px solid #b58024;
+    padding-top: 40px;
+}     
+
+.section2 .data2 h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 130px;
+    font-weight:500;
+    color: #44474a;
+    margin-bottom: 20px;
+}
+
+.section2 .data2 .section2_image{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.section2 .data2 .section2_image svg{
+    fill: white;
+    font-size: 40px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: -120px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    animation: rotat 20s linear infinite;
+}
+
+.section2 .data2 h3{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Nunito;
+    margin-right: 40px;
+}
+
+.section2 .data2 h4{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Nunito;
+}
+
+.section2 .data2 h4 span i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+/* =======================================
+section 3 starts here ========================================== */
+
+.section3{
+    padding: 100px 0;
+    background-color: #0b1315;
+    overflow: hidden;
+}
+
+.section3 .container .data1 h1{
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 120px;
+    color: #c0a679;
+    transform: rotate(-16deg);
+}
+
+            /* ----- data 2 ----- */
+
+.section3 .data2{
+    margin-top: 100px;
+}            
+
+.section3 .data2 h4{
+    font-family: 'Miniver', cursive;
+    color: #c9ab81;
+    font-size: 18px;
+}
+
+.section3 .data2 h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #c9ab81;
+}
+
+.section3 .data2 p{
+    font-family: Nunito;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+            /* ---- data 3 ----- */
+
+.section3 .data3 .info h4{
+    font-family: 'Miniver', cursive;
+    color: #c9ab81;
+    font-size: 18px;
+}           
+
+.section3 .data3 h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #c9ab81;
+}
+
+                                    .section3 .data3 .dishes{
+    width: 100%;
+    border-bottom: 1px solid #cda45e;
+    display: flex;
+    justify-content: space-between;
+    color: #c9ab81;
+}
+
+.section3 .data3 .dishes h3,h4{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+.section3 .data3 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px 0 30px 0;
+}
+
+            /* -----inside 2---- */
+
+.section3 .inside2{
+    padding-left: 7%;
+}
+
+.section3 .inside2 svg{
+    position: absolute;
+    right: 50px;
+}      
+
+.section3 .inside2 .image1{
+    width: 65%;
+    position: absolute;
+    top: 20%;
+    overflow: hidden;
+}
+
+.section3 .inside2 .image1 img{
+    transition: all 0.5s linear;
+}
+
+.section3 .inside2 .image1 img:hover{
+    transform: scale(1.2);
+}
+
+/* ========================= service section starts here =============================== */
+
+.services{
+    background: url(../images/services.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.services .data1 h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.services .data1 p{
+    font-family: 'Nunito';
+}
+
+.services_carousel_inner{
+    padding: 70px 0;
+}
+
+.services .items{
+    background-color: white;
+    padding: 2% 3%;
+    border: 1px solid white;
+    transition: all 0.2s linear;
+}
+
+.services .items:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.services .items h4{
+    font-weight: 600;
+}
+
+.services .carousel-indicators button{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid wheat;
+}
+
+.services .data2 img{
+    padding-bottom: 20px;
+}
+
+/* ============================ chefs section starts here =============================== */
+
+.section10{
+    background-color: #0c0b09;
+    padding: 70px 0;
+}
+
+.section10 .data1 h6{
+    color: #c9ab81;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.section10 .data1 p{
+    font-family: crimson Text;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.section10 .data2 .chef{
+    position: relative;
+}
+
+.section10 .data2 .info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.section10 .data2 .info h6{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 550px;
+    transition: all 0.6s;
+}
+
+.section10 .data2 .info p{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+
+.section10 .data2 .info i{
+    color: white;
+    margin-right: 4%;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.section10 .data2 .info i:hover{
+    color: #5c9f24;
+}
+
+.section10 .data2 .info:hover h6{
+    padding-top: 300px;
+}
+
+.section10 .data2 .info:hover{
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0,1));
+}
+
+/* ===================== testimonials here ============== */
+
+.testimonial{
+    background: url(../images/testimonial-bg.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0 0 0;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.testimonial .test{
+    background-color: white;
+    padding: 30px 10px;
+    transition: all 0.5s linear;
+}
+
+.testimonial .test:hover{
+    border-radius: 30px;
+}
+
+.testimonial .test .icon{
+    height: 50%;
+}
+
+.testimonial .test .icon img{
+    width: 50%;
+    transition: all 0.3s linear;
+}
+
+.testimonial .test:hover img{
+    width: 25%;
+}
+
+.testimonial .test .information{
+    height: 50%;
+}
+
+.testimonial .test .information h3{
+    font-family: "Nunito";
+    font-weight: 600;
+}
+
+.testimonial .test .information p{
+    font-family: "Nunito";
+    font-weight: 600;
+}
+
+.testimonial .test .information h4{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.testimonial .data2 h1{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    position: relative;
+    bottom: -100px;
+    color: white;
+}
+
+
+/* ================================= partners ================================ */
+
+.partners img{
+    transition: all 0.5s ease-in-out;
+}
+
+.partners img:hover{
+    transform: scale(1.5);
+}
+
+/* ===================================== location here ================================ */
+
+.location{
+    padding: 50px 0 100px 0;
+    background-color: #0b1315;
+    background-image: url(../images/about-il-1.png);
+    background-blend-mode: soft-light;
+    background-position: right;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:700px){
+    .location{
+        background-size: 100%;
+    }
+}
+
+.location .inside1 h3{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    color: #C59D5F;
+}
+
+.location .inside1 h1{
+    font-family: crimson Text;
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+}
+
+
+.location .inside1 p{
+    font-family: 'Nunito';
+    color: #bfbfbf;
+    font-size: 16px;
+    line-height: 30px; 
+}
+
+.location .inside1 a{
+    padding: 15px 35px;
+    background-color: #cda45e;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Nunito;
+    text-decoration: none;
+}
+
+        /* ----- data2 ------ */
+
+.location .inside1 .data2 i{
+    font-size: 30px;
+    color: #b58024;
+    cursor: pointer;
+}
+
+.location .inside1 .data2 .icon_info{
+    position: absolute;
+}
+
+.location .inside1 .data2 .i1{
+    top: 25%;
+}
+
+.location .inside1 .data2 .insight{
+    padding: 10px 25px;
+    background-color: #131619;
+    display: inline-block;
+}
+
+.location .inside1 .data2 .insight h4{
+    font-size: 20px;
+    color: white;
+    font-family: crimson Text;
+    font-weight: 600;
+}
+
+.location .inside1 .data2 .insight p{
+    font-size: 17px;
+    font-family: 'Nunito';
+    color: #7d8287;
+}
+
+.location .inside1 .data2 .i2{
+    top: 70%;
+    left: 10%;
+}
+.location .inside1 .data2 .i3{
+    top: 50%;
+    right: 5%;
+}
+.location .inside1 .data2 .i4{
+    top: 10%;
+    left: 55%;
+}
+
+ .location .inside1 .data2 .insight2,.insight3,.insight4{
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.location_info .inn{
+    padding: 10px;
+    margin-bottom: 5px;
+    transition: all 0.2s linear;
+}
+
+.location_info .inn:hover{
+    border-bottom: 2px solid white;
+    background-color: #161616;
+}
+
+/* ================================= footer here =========================== */
+
+
+.section12{
+    background: #0c0b09;
+    border-top: 1px solid #cda45e23;
+    border-bottom: 1px solid #cda45e1f;
+}
+
+.section12 .inside .inn .here h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section12 .inside .inn .here h6{
+    font-family: 'Playfair Display', serif;
+}
+
+.section12 .inside .inn .here h7{
+    font-family: 'Playfair Display', serif;
+}
+
+.section12 .inside .inn .here i{
+    font-size: 18px;
+    margin-right: 1%;
+    color: white;
+    background-color: #4444445f;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.section12 .inside .inn .here i:hover{
+    background-color: white;
+    color: black;
+}
+
+.fa-chevron-right{
+    color: #5c9f24;
+    margin-right: 3%;
+    font-size: 16px;
+}
+
+.section12 .inside .inn .second h6{
+    margin: 10% 0;
+}
+
+.section12 .inside .inn .second a{
+    text-decoration: none;
+    color: white;
+}
+
+.section12 .inside .inn .second i{
+    color: #cda45e;
+}
+
+.section12 .inside .inn .third i{
+    color: #cda45e;
+}
+
+.section12 .inside .inn .second a:hover{
+    color: #5c9f24;
+}
+
+.section12 .inside .inn .third h6{
+    margin: 9% 0;
+}
+
+.section12 .inside .inn .third a{
+    text-decoration: none;
+    color: white;
+}
+
+.section12 .inside .inn .third a:hover{
+    color: #5c9f24;
+}
+
+.section12 .inn h7{
+    display: block;
+    margin-top: 7%;
+    font-size: 14px;
+}
+
+.fourth p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.todo{
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.last input{
+    outline: none;
+    border: 1px solid #5c9f24;
+    background-color: transparent;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+.last .change{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+/* =============================== crdit here ============================ */
+
+
+.section13{
+    background-color: #000000;
+    padding: 40px 0 25px 0;
+}
+
+.section13 h6 span{
+    font-weight: 600;
+}
+
+.section13 p{
+    font-size: 14px;
+}
+
+.section13 p span{
+    color: #cda45e;
+}
+
+
+/*================================ modal here ====================================*/
+
+.frm input{
+    outline: none;
+    border: 1px solid #c8935f;;
+    background-color: transparent;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+.frm .change{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btn{
+    padding:9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #f5c778;
+    color: #fff;
+}
+.btn-brand:hover{
+    background-color: #fc9a73;
+}
+
+
+/* ================================ MEDIA QUERY ========================== */
+
+@media only screen and (max-width:991px){
+    .testimonial .data2 h1{
+        font-size: 100px;
+        bottom: -70px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .section1 .data2{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .testimonial .data2 h1{
+        font-size: 50px;
+        bottom: -40px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .testimonial .test .information{
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .testimonial .data2 h1{
+        font-size: 30px;
+        bottom: -20px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .section2 .data1 h2{
+        font-size: 30px;
+    }
+
+    .section2 .data1 p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .location .inside1 h1{
+        font-size: 30px;
+    }
+
+    .section10 .data1 p{
+        font-size: 30px;
+    }
+
+    .services .data1 h1{
+        font-size: 30px;
+    }
+}

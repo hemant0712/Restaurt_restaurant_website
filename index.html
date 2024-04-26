@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Restaurt </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- ============================= link of Bootstrap and CSS ========================= -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+<!-- ==================================== icons link here ================================ -->
+
+<script src="https://kit.fontawesome.com/5fabcdb24e.js" crossorigin="anonymous"></script>
+
+
+<!-- ================================ fonts link here =================================== -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+
+  <a href = "#" class="topbtn"> Go to Top </a>
+
+<div id = "loader"></div>
+
+<!-- ===================================== Navbar starts here =============================== -->
+
+
+ <div class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between p-1 mx-5">
+      <h4 class="text-white restaurant"> CHASKA </h4>
+      
+      <nav id="my_navbar" class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#chefs">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <a href="#" class="ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn book text-white px-4 py-2 ms-5">BOOK A TABLE</button></a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+  </div> 
+
+
+<!-- ====================================
+section 1  starts here ========================================= -->
+
+<div id="home"></div>
+
+<div class="container-fluid section1">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        
+        <div class="row" data-aos="fade-up">
+
+        <div class="col-md-6 text-white data1">
+
+          <img src="images/coconut.png" alt="" class="image1">
+
+            <h1> Good Food Made Easy </h1>
+            <h2> Are You Hungry ? </h2>
+            <p class="mt-4 me-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius nemo dolore nostrum distinctio, corporis delectus ipsam laborum modi dicta aliquid excepturi ea possimus quia, adipisci natus unde dolorum error!
+            </p>
+            <a href="#" class="hover_btn"> <span> Learn More </span> </a>
+
+            <img src="images/tomoto-draw.png" alt="" class="image2">
+
+        </div>
+        
+        <div class="col-md-6 data2 position-relative">
+
+          <img src="images/leaf-circle2.png" alt="" class = "image1 d-none d-sm-block">
+
+          <img src="images/chicken-grill2.png" alt="" class="image2" style = "width: 85%; top: 30px;">
+
+        </div>
+
+
+    </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+
+          <div class="col-md-6 text-white data1">
+
+            <img src="images/coconut.png" alt="" class="image1">
+  
+              <h1> Special Dinner for You </h1>
+              <h2> Delicious Foods </h2>
+              <p class="mt-4 me-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius nemo dolore nostrum distinctio, corporis delectus ipsam laborum modi dicta aliquid excepturi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, minus!
+              </p>
+              <a href="#" class="mb-5 hover_btn"> <span> Learn More </span> </a>
+
+              <img src="images/tomoto-draw.png" alt="" class="image2">
+  
+          </div>
+          <div class="col-md-6 data2 position-relative">
+  
+            <img src="images/leaf-circle2.png" alt="" class = "image1 d-none d-sm-block">
+  
+            <img src="images/food-3.png" alt="" class="image2">
+  
+          </div>
+  
+  
+      </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+
+          <div class="col-md-6 text-white data1">
+  
+            <img src="images/coconut.png" alt="" class="image1">
+            
+              <h1> Tastes Like a paradise </h1>
+              <h2> Today Special Menu </h2>
+              <p class="mt-4 me-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius nemo dolore nostrum distinctio, corporis delectus ipsam laborum modi dicta aliquid excepturi ea possimus quia, adipisci natus unde dolorum error!
+              </p>
+              <a href="#" class="mb-5 hover_btn"> <span> Learn More </span> </a>
+
+              <img src="images/tomoto-draw.png" alt="" class="image2">
+  
+          </div>
+          <div class="col-md-6 data2 position-relative">
+  
+            <img src="images/leaf-circle2.png" alt="" class = "image1 d-none d-sm-block">
+  
+            <img src="images/italian-food.png" alt="" class="image2" style="width: 78%;">
+  
+          </div>
+  
+  
+      </div>
+      </div>
+    </div>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+
+<!-- ======================================= section 2 starts here =========================================== -->
+
+<div id="about"></div>
+
+<div class="container-fluid section2">
+
+  <div class="container" data-aos="fade-in">
+
+    <div class="row">
+
+      <div class="col-xl-7 data1 text-white">
+
+        <h2> DELICIUM RESTORACIA AWESOME FOOD FOR YOU </h2>
+        
+        <p>
+          Opaleye yellowtail snapper, velvet catfish, graveldiver banded killifish, Old World rivuline catalufa eagle ray Moorish idol. Herring smelt barbeled dragonfish, tommy ruff.
+        </p>
+
+        <p class="para2">
+          Queen danio velvet catfish Sacramento blackfish, bullhead shark, Colorado squawfish Russian sturgeon clown triggerfish swamp-eel paradise fish. Hake cookie-cutter shark silver carp hawkfish snipe eel armorhead catfish, moray eel silverside! Bluegill toadfish, orangespine unicorn fish. Manta Ray Moorish idol
+        </p>
+
+        <div class="inside1">
+
+          <h3 class="mb-4"> WORKING HOURS </h3>
+
+          <div class="in d-flex justify-content-between">
+            <div class="days">Monday - Sunday:</div>
+            <div class="marker"></div>
+            <div class="timing">2pm - 2pm</div>
+          </div>
+
+          <div class="in d-flex justify-content-between">
+            <div class="days">Lunch:</div>
+            <div class="marker"></div>
+            <div class="timing">12pm - 2pm</div>
+          </div>
+
+          <div class="in d-flex justify-content-between">
+            <div class="days">Dinner:</div>
+            <div class="marker"></div>
+            <div class="timing">6pm - 10pm</div>
+          </div>
+
+          <div class="in d-flex justify-content-between">
+            <div class="days">Happy Hours:</div>
+            <div class="marker"></div>
+            <div class="timing">4pm - 6pm</div>
+          </div>
+
+        </div>
+
+        <a href="" class="hover_btn"> <span> Explore more </span> </a>
+
+      </div>
+
+      <div class="col col-lg-12 g-5 col-xl-5 data2 text-white">
+
+        <h1>Since 2001</h1>
+
+        <div class="section2_image position-relative">
+          <img src="images/section2.jpg" alt="" class="w-100">
+
+          <svg class="delicium_text_circle delicium_promo_text_animation_on" viewBox="0 0 500 500">
+            <defs>
+                <path id="textcircle_22000604" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"></path>
+            </defs>
+
+            <text>
+                <textPath xlink:href="#textcircle_22000604" aria-label="Delicious food in our restaurant" textLength="800">
+                    Delicious food in our restaurant                                </textPath>
+            </text>
+        </svg>
+          
+        </div>
+
+        <h3> Michelin <br> 2020 </h3>
+        <h4><span> <i class="fa-solid fa-medal"></i> </span> Tripadvisor </h4>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ==================================== section 3 starts here ======================================== -->
+
+<div id="menu"></div>
+
+<div class="container-fluid section3 menu">
+
+  <div class="container">
+
+    <div class="row data1 position-relative overflow-hidden">
+
+      <img src="images/menu1.jpg" class="w-100" alt="">
+      <h1 class="d-none d-sm-block"> True <br> Taste </h1>
+
+    </div>
+
+
+    <div class="row data2 text-center">
+
+        <h4> Standard food offer </h4>
+        <h1> MAIN MENU </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectet adipisicing eli sed don eius od tempor <br>
+          utab et dolore mag aliqua ut enim ad minm eniam quis nostrud
+        </p>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-2 mt-5 data3" data-aos="fade-left">
+
+      <div class="col inside1">
+
+        <div class="info text-center py-5">
+          <h4> Drinks </h4>
+          <h1> COCKTAILS </h1>
+        </div>
+
+        <div class="dishes">
+          <h3> COCO SPICE </h3>
+          <h4> $32 </h4>
+        </div>
+        <p> Captain Morgan spiced rum, pineaple juice, cocount </p>
+
+        <div class="dishes">
+          <h3> TEQUILA SUNRISE </h3>
+          <h4> $25 </h4>
+        </div>
+        <p> Tequila, orange juice, grenadine </p>
+
+        <div class="dishes">
+          <h3> STRAWBERRY DAIQUIRI	 </h3>
+          <h4> $38 </h4>
+        </div>
+        <p> Rum, strawberry, lime </p>
+
+        <div class="dishes">
+          <h3> CUBA LIBRE	 </h3>
+          <h4> $38 </h4>
+        </div>
+        <p> Dark rum, fresh lime, Coke </p>
+
+        <div class="dishes">
+          <h3> PIMMS JUG	 </h3>
+          <h4> $38 </h4>
+        </div>
+        <p> Pims, Bacardi, lemonade, ginger beer, cucumber </p>
+
+      </div>
+
+      <div class="col inside2 position-relative pt-5 ">
+
+        <svg class="second d-lg-block d-none" xmlns="http://www.w3.org/2000/svg" width="434.742" height="452.854"><path fill="none" stroke="#997D57" stroke-width="1.5" stroke-miterlimit="10" d="M0 0l72.457 72.457L0 144.913l72.457 72.456L0 289.826l72.457 72.456L0 434.739l18.114 18.114M72.457 0L0 72.457l72.457 72.456L0 217.369l72.457 72.457L0 362.282l72.457 72.457-18.115 18.114m36.148-.081l-18.033-18.033 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L72.457 0m72.457 0L72.457 72.457l72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.114 18.115m36.147-.082l-18.033-18.033 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L144.914 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.114 18.114m36.228.001l-18.114-18.114 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L217.371 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.115 18.114m36.229.001l-18.114-18.114 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L289.828 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.115 18.114m36.23.001l-18.115-18.114 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L362.285 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.115 18.114M18.113 54.343L0 36.229m54.342-18.115L36.229 0M18.113 18.114L36.228 0M126.8 18.114L108.686 0M90.571 18.114L108.686 0m90.571 18.114L181.143 0m0 0l-18.114 18.114m108.56 0L253.475 0M235.36 18.114L253.475 0m90.696 18.114L326.057 0m-18.115 18.114L326.057 0m90.571 18.114L398.514 0m0 0L380.4 18.114M271.715 54.343l18.113-18.114m54.344 18.114l18.113-18.114m54.344 18.114l18.113-18.114m-416.629 90.57L0 108.686m271.715 18.113l18.113-18.113m54.344 18.113l18.113-18.113m54.344 18.113l18.113-18.113m-416.629 90.57L0 181.142m271.715 18.114l18.113-18.114m54.344 18.114l18.113-18.114m54.344 18.114l18.113-18.114M18.113 271.713L0 253.598m271.715 18.115l18.113-18.115m54.344 18.115l18.113-18.115m54.344 18.115l18.113-18.115M72.457 0v36.229L90.57 54.343m-36.029 0l17.916-18.114M144.914 0v36.229l18.113 18.114m-36.029 0l17.916-18.114M217.368 0v36.229l18.114 18.114M289.828 0v36.229l18.114 18.114M362.285 0v36.229l18.114 18.114M36.229 36.229v36.229l18.113 18.114m54.344-54.343v36.229L126.8 90.571m54.343-54.342v36.229l18.114 18.114M253.6 36.229v36.229l18.113 18.114m54.344-54.343v36.229l18.113 18.114m54.344-54.343v36.229l18.113 18.114M199.451 54.343l17.917-18.114M72.457 72.457v36.229l18.113 18.113m-36.029 0l17.916-18.113m72.457-36.229v36.229l18.113 18.113m-36.029 0l17.916-18.113m72.447-36.229v36.229l18.114 18.113m54.353-54.342v36.229l18.114 18.113m54.343-54.342v36.229l18.114 18.113m-180.954 0l17.916-18.113M72.457 144.913v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.457-36.229v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.447-36.229v36.229l18.114 18.114m54.353-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.114 18.114m-180.954 0l17.916-18.114M72.457 217.369v36.229l18.113 18.115m-18.113-18.115l-17.916 18.115m90.373-54.344v36.229l18.113 18.115m-36.029 0l17.916-18.115m72.447-36.229v36.229l18.114 18.115m54.353-54.344v36.229l18.114 18.115m54.343-54.344v36.229l18.114 18.115m-180.954 0l17.916-18.115M72.457 289.827v36.229L90.57 344.17m-36.029 0l17.916-18.114m72.457-36.229v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.447-36.229v36.229l18.114 18.114m54.353-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.114 18.114m-180.954 0l17.916-18.114M72.457 362.282v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.457-36.229v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.447-36.229v36.229l18.114 18.114m126.81-54.343v36.229l18.114 18.114m-90.571-54.343v36.229l18.114 18.114m-108.497 0l17.916-18.114M72.457 452.854V434.74m72.457 18.114V434.74m72.447 18.114V434.74m72.467 18.114V434.74m72.457 18.114V434.74M18.313 90.571l17.916-18.114M90.77 90.571l17.916-18.114m54.541 18.114l17.916-18.114m54.541 18.114L253.6 72.457m54.541 18.114l17.916-18.114m54.541 18.114l17.916-18.114M36.229 108.686v36.229l18.113 18.113m54.344-54.342v36.229l18.114 18.113m54.343-54.342v36.229l18.114 18.113m54.343-54.342v36.229l18.113 18.113m54.344-54.342v36.229l18.113 18.113m54.344-54.342v36.229l18.113 18.113m-398.314-.001l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113M36.229 181.142v36.229l18.113 18.114m54.344-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.113 18.114m126.801-54.343v36.229l18.113 18.114m-90.57-54.343v36.229l18.113 18.114m-325.857-.001l17.916-18.114m54.541 18.114l17.916-18.114m54.541 18.114l17.916-18.114m54.541 18.114L253.6 217.37m144.914 0l-17.916 18.114m-72.457 0l17.916-18.114M36.229 253.598v36.229l18.113 18.115m54.344-54.344v36.229l18.114 18.115m54.343-54.344v36.229l18.114 18.115m54.343-54.344v36.229l18.113 18.115m54.344-54.344v36.229l18.113 18.115m54.344-54.344v36.229l18.113 18.115m-398.314-.001l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115M18.113 344.159L0 326.046m271.715 18.113l18.113-18.113m54.344 18.113l18.113-18.113m54.344 18.113l18.113-18.113M18.113 416.625L0 398.512m271.715 18.113l18.113-18.113m54.344 18.113l18.113-18.113m54.344 18.113l18.113-18.113M36.229 326.046v36.228l18.113 18.115m54.344-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.113 18.115m126.801-54.343v36.228l18.113 18.115m-90.57-54.343v36.228l18.113 18.115m-325.857 0l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m144.914-.001l-17.916 18.115m-72.457.001l17.916-18.115M36.229 398.511v36.228l18.113 18.115m54.344-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.113 18.115m126.801-54.343v36.228l18.113 18.115m-90.57-54.343v36.228l18.113 18.115m-325.857 0l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115"></path></svg>
+
+        <div class="image1 d-lg-block d-none">
+          <img src="images/menu2.jpg" class="w-100" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-lg-2 mt-5 data3" data-aos="fade-right">
+
+      <div class="col inside2 position-relative pt-5">
+
+        <svg class="d-lg-block d-none" style = "left:0" xmlns="http://www.w3.org/2000/svg" width="303.083" height="305.563"><path fill="none" stroke="#9A7D57" stroke-width="1.5" stroke-miterlimit="10" d="M36.927 251.827L1.428 190.62 72.426 67.954 53.591 35.415M36.927 251.827l35.499-61.207L12.86 87.705m95.065-81.084l35.499 61.333L72.426 190.62l65.733 113.572m-52.431-13.887l57.696-99.685L72.426 67.954l35.47-61.282m68.954-3.631l37.572 64.913-70.998 122.666 60.398 104.352m-55.403 9.683l66.003-114.035-70.998-122.666L180.614 3.7m100.552 71.606L214.422 190.62l41.37 71.478M233.9 279.635l51.521-89.015-70.999-122.666 23.047-39.817m64.554 133.8L285.42 190.62l7.581 13.098M96.143 10.63v16.348M60.644 88.311v-17.44L44.853 43.219M25.145 149.644v-17.439L7.325 101m53.319 109.977v-17.439l-23.712-41.521-23.722 41.577v17.383m82.933 61.333v-17.44l-23.712-41.521-23.722 41.578v10.798m75.021 36.623l-15.8-27.666-11.501 20.158m96.143 3.732l-13.644-23.891-16.852 29.537m5.026-31.908v-17.44l-23.712-41.521-23.722 41.578v17.383m118.471 0v-17.44l-23.712-41.521-23.722 41.578v17.383m97.105-54.786l-2.385-4.176-23.722 41.578v1.114m-130.061-45.063v-17.439l-23.712-41.521-23.722 41.578v17.383m118.432-.001v-17.439l-23.712-41.521-23.722 41.578v17.383m118.432-.001v-17.439l-23.712-41.521-23.722 41.578v17.383M96.143 149.644v-17.439L72.431 90.683l-23.722 41.578v17.383m118.393 0v-17.439L143.39 90.683l-23.722 41.578v17.383m118.471 0v-17.439l-23.712-41.521-23.722 41.578v17.383m105.285-40.463l-10.564-18.499-23.722 41.578v17.383M131.642 88.311v-17.44L107.93 29.35 84.208 70.928v17.383m118.432 0v-17.44L178.928 29.35l-23.722 41.578v17.383m118.432 0v-17.44l-12.967-22.705m-14.027-13.062l-20.439 35.824v17.383m-59.064-61.333V9.538l-4.791-8.391m-38.904 1.896l-3.738 6.552v17.383m72.745-20.445l-1.747 3.062v17.383M84.248 15.75v31.78m-23.643 0V29.963m-11.856 78.9V73.93l-11.82-20.694-11.823 20.723v34.904M13.25 170.196v-34.934L2.607 116.629m46.142 114.9v-34.934L36.93 175.902l-11.823 20.723v34.904M84.248 289.6v-31.671l-11.819-20.693-11.823 20.723v17.433m120.069 26.241l-1.75-3.064-2.172 3.805m-21.507-9.512v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64-8.49v-26.443l-11.819-20.693-11.823 20.723v34.904m-82.855-61.334v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64 0v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64 0v-34.934l-11.819-20.693-11.824 20.723v34.904M84.248 170.196v-34.934l-11.819-20.693-11.823 20.723v34.904m94.601 0v-34.934l-11.819-20.693-11.823 20.723v34.904m94.679 0v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64 0v-34.934l-11.819-20.693-11.823 20.723v34.904m-153.853-61.333V73.93l-11.819-20.693-11.824 20.722v34.904m94.641 0V73.93l-11.819-20.693-11.823 20.723v34.904m94.64-.001V73.93l-11.819-20.693L238.1 73.959v34.904M155.246 47.53V12.597L148.445.69m-10.298.466l-6.544 11.47V47.53m94.641-26.554V47.53m-22.366-37.143l-1.277 2.239V47.53M72.426 22.118v45.836m-35.499 5.158v56.051m-35.499 5.281v56.051m35.499 5.281v56.051m35.499 5.277v26.128m70.998-26.128v47.4m70.998-47.4v33.414m-106.497-94.742v56.051m70.998-56.051v56.051m70.998-56.051v56.051M72.426 134.444v56.051m70.998-56.051v56.051m70.998-56.051v56.051m70.998-56.051v56.051M107.925 73.112v56.051m70.998-56.051v56.051m70.998-56.051v56.051M143.424 11.903v56.051m70.998-53.136v53.136m-76.584 236.208"></path></svg>
+
+        <div class="image1 d-lg-block d-none" style="top: 30%;">
+          <img src="images/menu3.jpg" class="w-100" alt="">
+        </div>
+
+      </div>
+
+      <div class="col inside1">
+
+        <div class="info text-center py-5">
+          <h4> Drinks </h4>
+          <h1> WINES </h1>
+        </div>
+
+        <div class="dishes">
+          <h3> CHARDONNAY HAND OF TIME </h3>
+          <h4> $198 </h4>
+        </div>
+        <p> Alexander Valley </p>
+
+        <div class="dishes">
+          <h3> MOSCATO CAVIT	 </h3>
+          <h4> $225 </h4>
+        </div>
+        <p> Chile </p>
+
+        <div class="dishes">
+          <h3> RIESLING MICHELLE	 </h3>
+          <h4> $382 </h4>
+        </div>
+        <p> Santa Lucia Highlands </p>
+
+        <div class="dishes">
+          <h3> MALBEC DONNA PAULA	 </h3>
+          <h4> $124 </h4>
+        </div>
+        <p> France </p>
+
+      </div> 
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-2 mt-5 data3" data-aos="fade-left">
+
+      <div class="col inside1">
+
+        <div class="info text-center py-5">
+          <h4> Our Choices </h4>
+          <h1> APPETIZERS </h1>
+        </div>
+
+        <div class="dishes">
+          <h3> FOUR CHEESE GARLIC BREAD	 </h3>
+          <h4> $32 </h4>
+        </div>
+        <p> Toasted French bread topped with romano, cheddar </p>
+
+        <div class="dishes">
+          <h3> SHRIMP SCAMPI	 </h3>
+          <h4> $25 </h4>
+        </div>
+        <p> Jumbo shrimp sauteed in white wine, butter and garlic </p>
+
+        <div class="dishes">
+          <h3> FRIED CALAMARI	 </h3>
+          <h4> $18 </h4>
+        </div>
+        <p> Breaded calamari, lightly fried in canola oil </p>
+
+        <div class="dishes">
+          <h3> PEACHY JALAPENO GUACAMOLE	 </h3>
+          <h4> $36 </h4>
+        </div>
+        <p> Ground cumin, avocados, peeled and cubed </p>
+
+        <div class="dishes">
+          <h3> RASTRAMI ROLL	 </h3>
+          <h4> $29 </h4>
+        </div>
+        <p> Spreadable cream cheese, crumbled blue cheese </p>
+
+        <div class="dishes">
+          <h3> BROWNIE BATTER DIP	 </h3>
+          <h4> $17 </h4>
+        </div>
+        <p> Cream cheese, softened butter, brown sugar </p>
+
+        <div class="dishes">
+          <h3> CAPRESE SALAD KABOBS </h3>
+          <h4> $31 </h4>
+        </div>
+        <p> Cherry-size fresh mozzarella cheese balls </p>
+
+      </div>
+
+      <div class="col inside2 position-relative pt-5">
+
+        <svg class="d-lg-block d-none" style = "top:25%" xmlns="http://www.w3.org/2000/svg" width="338.958" height="390.208"><path fill="none" stroke="#997D57" stroke-width="1.5" stroke-miterlimit="10" d="M245.74 339.38l65.28-37.783m-4.149 73.4l4.149-2.401m0-.001l-122.666-70.998-3.796 2.197M62.352 232.53l3.336-1.931 122.666 70.998 122.666-70.998m0 70.998l-122.666-70.998-65.267 37.775M.819 197.13l64.869-37.529 122.666 70.998 122.666-70.998m0 70.998l-122.666-70.998-122.666 70.998L.819 193.054m122.268-71.228l65.267 37.775L311.02 88.603m0 70.998L188.354 88.603 65.688 159.601l-3.336-1.932m121.815-71.49l4.187 2.424L311.02 17.605m-65.721 32.959l65.721 38.039M201.449 313.379h7.262m61.332-35.499h-17.439l-41.521 23.712 41.578 23.722h17.383m-7.935 23.564h7.935m61.332-106.497h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.432h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.432h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.432h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-70.998h-9.186m-52.147 201.098h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.471h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.432h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-70.998h-8.784M208.71 242.381h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.432h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.432h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-70.998h-8.383M140.248 277.88h7.129m0-70.959h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-118.471h-17.439l-41.521 23.712 41.578 23.722h17.383m-.001-70.998h-7.98m-53.353 59.063H68.605l-41.521 23.712 41.578 23.722h17.383m-.001-70.998h-7.578m-60.147 59.063h6.392m0-23.564h-7.109m203.933 141.957h7.729m61.332-35.499h-34.934l-20.693 11.819 20.723 11.823h34.904m-7.732 47.356h7.732m48.755-177.495h-22.355l-20.693 11.819 20.723 11.823h22.33m-48.76 11.857h-34.934l-20.693 11.819 20.723 11.823h34.904m0-94.64h-34.934l-20.693 11.819 20.723 11.823h34.904m0-94.64h-34.934l-20.693 11.819 20.723 11.823h34.904m0-70.998h-8.919m-52.414 224.851H194.33l-20.693 11.819 20.723 11.823h34.904m-.001-94.64H194.33l-20.693 11.819 20.723 11.823h34.904m-.001-94.64H194.33L173.636 124.1l20.723 11.823h34.904m0-70.998h-8.518M160.66 289.776h7.27m0-70.959h-34.934l-20.693 11.819 20.723 11.823h34.904m0-94.679h-34.934l-20.693 11.819 20.723 11.823h34.904m0-70.998h-8.115M98.871 254.277h7.726m0-70.998H71.664L50.97 195.098l20.723 11.823h34.904m0-70.998h-7.726m-61.208 82.855h7.602m-.001-47.356h-7.602m217.176 130.175h56.051m-56.051-70.998h56.051m-56.051-70.998h56.051m-56.051-70.998h56.051M193.51 266.098h56.051M193.51 195.1h56.051m-56.051-70.998h56.051M132.178 230.599h56.051m-56.051-70.998h56.051M70.846 195.1h56.051m183.992 177.495l28.462-16.474M306.478 14.977l4.542 2.628m-.131 0l28.47-16.479m-28.47 300.471l28.46 16.473m-28.46 54.525l28.465 16.475m-28.465-87.473l28.46-16.473m-28.46-54.525l28.47 16.478m-28.47-16.478l28.47-16.478m0-38.041l-28.47-16.479m0 0l28.465-16.475m-28.465-54.523l28.46 16.473m-28.46-16.473l28.47-16.479m-28.47-54.519l28.47 16.478m-.008 264.235l-5.733 3.274 5.737 3.274m-.004 64.45l-5.733 3.274 5.734 3.272m-.001-361.536l-5.733 3.274 5.737 3.273m-.001 206.446l-5.736 3.275 5.737 3.272m0-77.546l-5.737 3.276 5.737 3.274m-.001-77.548l-5.736 3.276 5.727 3.267m-7.969 221.514h-17.439l-41.521 23.712 41.578 23.722h17.383m-8.19 23.564h8.189m7.975-59.102h-22.355l-20.693 11.819 20.723 11.823h22.33m-.005-94.64h-22.355l-20.693 11.819 20.723 11.823h22.326m-.001-165.638h-22.355L296.302 124.1l20.723 11.823h22.326m-.002-94.64h-22.354l-20.693 11.819 20.723 11.823h22.334m-23.313 272.171h23.305M316.046 53.104h23.313M316.171 195.1h23.18m-23.18 70.998h23.184m-23.184-141.996h23.18M78.784 242.109"></path></svg>
+
+        <div class="image1 d-lg-block d-none">
+          <img src="images/menu4.jpg" class="w-100" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-2 mt-5 data3" data-aos="fade-right">
+
+      <div class="col inside2 position-relative pt-5">
+
+        <svg class = "d-lg-block d-none" style="left: 0; top: 30%" xmlns="http://www.w3.org/2000/svg" width="434.742" height="452.854"><path fill="none" stroke="#997D57" stroke-width="1.5" stroke-miterlimit="10" d="M0 0l72.457 72.457L0 144.913l72.457 72.456L0 289.826l72.457 72.456L0 434.739l18.114 18.114M72.457 0L0 72.457l72.457 72.456L0 217.369l72.457 72.457L0 362.282l72.457 72.457-18.115 18.114m36.148-.081l-18.033-18.033 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L72.457 0m72.457 0L72.457 72.457l72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.114 18.115m36.147-.082l-18.033-18.033 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L144.914 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.114 18.114m36.228.001l-18.114-18.114 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L217.371 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.115 18.114m36.229.001l-18.114-18.114 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L289.828 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.115 18.114m36.23.001l-18.115-18.114 72.457-72.457-72.457-72.456 72.457-72.457-72.457-72.456 72.457-72.456L362.285 0m72.457 0l-72.457 72.457 72.457 72.456-72.457 72.456 72.457 72.457-72.457 72.456 72.457 72.457-18.115 18.114M18.113 54.343L0 36.229m54.342-18.115L36.229 0M18.113 18.114L36.228 0M126.8 18.114L108.686 0M90.571 18.114L108.686 0m90.571 18.114L181.143 0m0 0l-18.114 18.114m108.56 0L253.475 0M235.36 18.114L253.475 0m90.696 18.114L326.057 0m-18.115 18.114L326.057 0m90.571 18.114L398.514 0m0 0L380.4 18.114M271.715 54.343l18.113-18.114m54.344 18.114l18.113-18.114m54.344 18.114l18.113-18.114m-416.629 90.57L0 108.686m271.715 18.113l18.113-18.113m54.344 18.113l18.113-18.113m54.344 18.113l18.113-18.113m-416.629 90.57L0 181.142m271.715 18.114l18.113-18.114m54.344 18.114l18.113-18.114m54.344 18.114l18.113-18.114M18.113 271.713L0 253.598m271.715 18.115l18.113-18.115m54.344 18.115l18.113-18.115m54.344 18.115l18.113-18.115M72.457 0v36.229L90.57 54.343m-36.029 0l17.916-18.114M144.914 0v36.229l18.113 18.114m-36.029 0l17.916-18.114M217.368 0v36.229l18.114 18.114M289.828 0v36.229l18.114 18.114M362.285 0v36.229l18.114 18.114M36.229 36.229v36.229l18.113 18.114m54.344-54.343v36.229L126.8 90.571m54.343-54.342v36.229l18.114 18.114M253.6 36.229v36.229l18.113 18.114m54.344-54.343v36.229l18.113 18.114m54.344-54.343v36.229l18.113 18.114M199.451 54.343l17.917-18.114M72.457 72.457v36.229l18.113 18.113m-36.029 0l17.916-18.113m72.457-36.229v36.229l18.113 18.113m-36.029 0l17.916-18.113m72.447-36.229v36.229l18.114 18.113m54.353-54.342v36.229l18.114 18.113m54.343-54.342v36.229l18.114 18.113m-180.954 0l17.916-18.113M72.457 144.913v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.457-36.229v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.447-36.229v36.229l18.114 18.114m54.353-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.114 18.114m-180.954 0l17.916-18.114M72.457 217.369v36.229l18.113 18.115m-18.113-18.115l-17.916 18.115m90.373-54.344v36.229l18.113 18.115m-36.029 0l17.916-18.115m72.447-36.229v36.229l18.114 18.115m54.353-54.344v36.229l18.114 18.115m54.343-54.344v36.229l18.114 18.115m-180.954 0l17.916-18.115M72.457 289.827v36.229L90.57 344.17m-36.029 0l17.916-18.114m72.457-36.229v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.447-36.229v36.229l18.114 18.114m54.353-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.114 18.114m-180.954 0l17.916-18.114M72.457 362.282v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.457-36.229v36.229l18.113 18.114m-36.029 0l17.916-18.114m72.447-36.229v36.229l18.114 18.114m126.81-54.343v36.229l18.114 18.114m-90.571-54.343v36.229l18.114 18.114m-108.497 0l17.916-18.114M72.457 452.854V434.74m72.457 18.114V434.74m72.447 18.114V434.74m72.467 18.114V434.74m72.457 18.114V434.74M18.313 90.571l17.916-18.114M90.77 90.571l17.916-18.114m54.541 18.114l17.916-18.114m54.541 18.114L253.6 72.457m54.541 18.114l17.916-18.114m54.541 18.114l17.916-18.114M36.229 108.686v36.229l18.113 18.113m54.344-54.342v36.229l18.114 18.113m54.343-54.342v36.229l18.114 18.113m54.343-54.342v36.229l18.113 18.113m54.344-54.342v36.229l18.113 18.113m54.344-54.342v36.229l18.113 18.113m-398.314-.001l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113m54.541 18.113l17.916-18.113M36.229 181.142v36.229l18.113 18.114m54.344-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.114 18.114m54.343-54.343v36.229l18.113 18.114m126.801-54.343v36.229l18.113 18.114m-90.57-54.343v36.229l18.113 18.114m-325.857-.001l17.916-18.114m54.541 18.114l17.916-18.114m54.541 18.114l17.916-18.114m54.541 18.114L253.6 217.37m144.914 0l-17.916 18.114m-72.457 0l17.916-18.114M36.229 253.598v36.229l18.113 18.115m54.344-54.344v36.229l18.114 18.115m54.343-54.344v36.229l18.114 18.115m54.343-54.344v36.229l18.113 18.115m54.344-54.344v36.229l18.113 18.115m54.344-54.344v36.229l18.113 18.115m-398.314-.001l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115M18.113 344.159L0 326.046m271.715 18.113l18.113-18.113m54.344 18.113l18.113-18.113m54.344 18.113l18.113-18.113M18.113 416.625L0 398.512m271.715 18.113l18.113-18.113m54.344 18.113l18.113-18.113m54.344 18.113l18.113-18.113M36.229 326.046v36.228l18.113 18.115m54.344-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.113 18.115m126.801-54.343v36.228l18.113 18.115m-90.57-54.343v36.228l18.113 18.115m-325.857 0l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m144.914-.001l-17.916 18.115m-72.457.001l17.916-18.115M36.229 398.511v36.228l18.113 18.115m54.344-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.114 18.115m54.343-54.343v36.228l18.113 18.115m126.801-54.343v36.228l18.113 18.115m-90.57-54.343v36.228l18.113 18.115m-325.857 0l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115m54.541 18.115l17.916-18.115"></path></svg>
+
+        <div class="image1 d-lg-block d-none">
+          <img src="images/menu5.jpg" class="w-100" alt="">
+        </div>
+
+      </div>
+
+      <div class="col inside1">
+
+        <div class="info text-center py-5">
+          <h4> Our Choices </h4>
+          <h1> MAIN COURSES </h1>
+        </div>
+
+        <div class="dishes">
+          <h3> CORN FED CHICKEN	</h3>
+          <h4> $32 </h4>
+        </div>
+        <p> Wild mushrooms, truffle potatoes, braised leeks, carrots </p>
+
+        <div class="dishes">
+          <h3> NDUJA PORK CHICKEN TERRINE	 </h3>
+          <h4> $25 </h4>
+        </div>
+        <p> Smoked duck breast, pistachio, smoked pancetta </p>
+
+        <div class="dishes">
+          <h3> PAN SEARED SCALLOPS	 </h3>
+          <h4> $18 </h4>
+        </div>
+        <p> Saffron, celeriac puree, black pudding, Parma ham </p>
+
+        <div class="dishes">
+          <h3> BAKED CAMEMBERT	 </h3>
+          <h4> $29 </h4>
+        </div>
+        <p> Red onion marmelade, garlic Foccacia bread, grilled figs </p>
+
+        <div class="dishes">
+          <h3> BRAISED OX CHEEK RAVIOLI	 </h3>
+          <h4> $16 </h4>
+        </div>
+        <p> Mediterranean olives casserole, celeriac puree, mushrooms </p>
+
+        <div class="dishes">
+          <h3> CORN FED CHICKEN	 </h3>
+          <h4> $38 </h4>
+        </div>
+        <p> Wild mushrooms, truffle potatoes, braised leeks, carrots </p>
+
+        <div class="dishes">
+          <h3> NDUJA PORK CHICKEN TERRINE	 </h3>
+          <h4> $25 </h4>
+        </div>
+        <p> Smoked duck breast, pistachio, smoked pancetta </p>
+
+      </div>
+
+      </div> 
+
+      <div class="row row-cols-1 row-cols-lg-2 mt-5 data3" data-aos="fade-left">
+
+        <div class="col inside1">
+
+          <div class="info text-center py-5">
+            <h4> Sweet Dreams </h4>
+            <h1> DESSERTS </h1>
+          </div>
+  
+          <div class="dishes">
+            <h3> CREOLE CREAM CHEESECAKE	 </h3>
+            <h4> $27 </h4>
+          </div>
+          <p> Creole Cream Cheese, Chocolate Filigree, and Caramel </p>
+  
+          <div class="dishes">
+            <h3> BANANAS FOSTER	 </h3>
+            <h4> $25 </h4>
+          </div>
+          <p> Bananas with Caribbean rum served with vanilla ice cream </p>
+  
+          <div class="dishes">
+            <h3> SOUTHERN PECAN PIE	 </h3>
+            <h4> $29 </h4>
+          </div>
+          <p> Warm Buttery Caramel, Chocolate Syrup, and Ice Cream </p>
+  
+          <div class="dishes">
+            <h3> LEMON MERINGUE PIE	 </h3>
+            <h4> $41 </h4>
+          </div>
+          <p> Dark chocolate mousse, candied pecan crunch and caramel </p>
+  
+        </div> 
+
+      <div class="col inside2 position-relative pt-5">
+
+        <svg class="d-lg-block d-none" xmlns="http://www.w3.org/2000/svg" width="303.083" height="305.563"><path fill="none" stroke="#9A7D57" stroke-width="1.5" stroke-miterlimit="10" d="M36.927 251.827L1.428 190.62 72.426 67.954 53.591 35.415M36.927 251.827l35.499-61.207L12.86 87.705m95.065-81.084l35.499 61.333L72.426 190.62l65.733 113.572m-52.431-13.887l57.696-99.685L72.426 67.954l35.47-61.282m68.954-3.631l37.572 64.913-70.998 122.666 60.398 104.352m-55.403 9.683l66.003-114.035-70.998-122.666L180.614 3.7m100.552 71.606L214.422 190.62l41.37 71.478M233.9 279.635l51.521-89.015-70.999-122.666 23.047-39.817m64.554 133.8L285.42 190.62l7.581 13.098M96.143 10.63v16.348M60.644 88.311v-17.44L44.853 43.219M25.145 149.644v-17.439L7.325 101m53.319 109.977v-17.439l-23.712-41.521-23.722 41.577v17.383m82.933 61.333v-17.44l-23.712-41.521-23.722 41.578v10.798m75.021 36.623l-15.8-27.666-11.501 20.158m96.143 3.732l-13.644-23.891-16.852 29.537m5.026-31.908v-17.44l-23.712-41.521-23.722 41.578v17.383m118.471 0v-17.44l-23.712-41.521-23.722 41.578v17.383m97.105-54.786l-2.385-4.176-23.722 41.578v1.114m-130.061-45.063v-17.439l-23.712-41.521-23.722 41.578v17.383m118.432-.001v-17.439l-23.712-41.521-23.722 41.578v17.383m118.432-.001v-17.439l-23.712-41.521-23.722 41.578v17.383M96.143 149.644v-17.439L72.431 90.683l-23.722 41.578v17.383m118.393 0v-17.439L143.39 90.683l-23.722 41.578v17.383m118.471 0v-17.439l-23.712-41.521-23.722 41.578v17.383m105.285-40.463l-10.564-18.499-23.722 41.578v17.383M131.642 88.311v-17.44L107.93 29.35 84.208 70.928v17.383m118.432 0v-17.44L178.928 29.35l-23.722 41.578v17.383m118.432 0v-17.44l-12.967-22.705m-14.027-13.062l-20.439 35.824v17.383m-59.064-61.333V9.538l-4.791-8.391m-38.904 1.896l-3.738 6.552v17.383m72.745-20.445l-1.747 3.062v17.383M84.248 15.75v31.78m-23.643 0V29.963m-11.856 78.9V73.93l-11.82-20.694-11.823 20.723v34.904M13.25 170.196v-34.934L2.607 116.629m46.142 114.9v-34.934L36.93 175.902l-11.823 20.723v34.904M84.248 289.6v-31.671l-11.819-20.693-11.823 20.723v17.433m120.069 26.241l-1.75-3.064-2.172 3.805m-21.507-9.512v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64-8.49v-26.443l-11.819-20.693-11.823 20.723v34.904m-82.855-61.334v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64 0v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64 0v-34.934l-11.819-20.693-11.824 20.723v34.904M84.248 170.196v-34.934l-11.819-20.693-11.823 20.723v34.904m94.601 0v-34.934l-11.819-20.693-11.823 20.723v34.904m94.679 0v-34.934l-11.819-20.693-11.823 20.723v34.904m94.64 0v-34.934l-11.819-20.693-11.823 20.723v34.904m-153.853-61.333V73.93l-11.819-20.693-11.824 20.722v34.904m94.641 0V73.93l-11.819-20.693-11.823 20.723v34.904m94.64-.001V73.93l-11.819-20.693L238.1 73.959v34.904M155.246 47.53V12.597L148.445.69m-10.298.466l-6.544 11.47V47.53m94.641-26.554V47.53m-22.366-37.143l-1.277 2.239V47.53M72.426 22.118v45.836m-35.499 5.158v56.051m-35.499 5.281v56.051m35.499 5.281v56.051m35.499 5.277v26.128m70.998-26.128v47.4m70.998-47.4v33.414m-106.497-94.742v56.051m70.998-56.051v56.051m70.998-56.051v56.051M72.426 134.444v56.051m70.998-56.051v56.051m70.998-56.051v56.051m70.998-56.051v56.051M107.925 73.112v56.051m70.998-56.051v56.051m70.998-56.051v56.051M143.424 11.903v56.051m70.998-53.136v53.136m-76.584 236.208"></path></svg>
+
+        <div class="image1 d-lg-block d-none" style="top: 30%;">
+          <img src="images/menu6.jpg" class="w-100" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
+<!-- ============================== services section here ===================================== -->
+
+<div id="service"></div>
+
+<div class="container-fluid services">
+
+  <div class="container">
+
+    <div class="row text-center text-white data1 pt-5">
+
+      <h1> SERVICES </h1>
+      <P>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+      </P>
+
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner text-center services_carousel_inner">
+        <div class="carousel-item active">
+          
+          <div class="row inside d-flex justify-content-center g-3 mx-3">
+
+            <div class="col-sm-4 col-md-3 items">
+              <img src="images/services1.png" alt="">
+              <h4> 24/7 FOOD DELIVERY </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-3 items mx-md-5">
+              <img src="images/services2.png" alt="">
+              <h4> DELICIOUS DESERTS </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-3 items">
+              <img src="images/services3.png" alt="">
+              <h4> ITALIAN CUISINE </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          
+          <div class="row inside d-flex justify-content-center g-3 mx-3">
+
+            <div class="col-sm-4 col-md-3 items">
+              <img src="images/services4.png" alt="">
+              <h4> DELICIOUS WINE </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-3 items mx-md-5">
+              <img src="images/services5.png" alt="">
+              <h4> BIG CHOICE </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-3 items">
+              <img src="images/services6.png" alt="">
+              <h4> ITALIAN SPECIALITY </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          
+          <div class="row inside d-flex justify-content-center g-3 mx-3">
+
+            <div class="col-sm-4 col-md-3 items">
+              <img src="images/services7.png" alt="">
+              <h4> JUICY BURGERS </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-3 items mx-md-5">
+              <img src="images/services8.png" alt="">
+              <h4> EXQUISITE PASTA </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-3 items">
+              <img src="images/services9.png" alt="">
+              <h4> FRENCH TASTE </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est obcaecati cumque quidem officiis culpa maxime.
+              </p>
+            </div>
+              
+
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ========================================== chefs here ============================================ -->
+
+<div id="chefs"></div>
+
+<div class="container-fluid section10">
+
+    <div class="container inside">
+
+        <div class="row data1">
+
+            <h6 class=" fw-semibold unique"> CHEFS </h6>
+            <p class="mb-5 same"> Our Proffesional Chefs </p>
+
+        </div>
+
+        <div class="row row-cols-1 g-4 row-cols-md-3 data2 ">
+
+            <div class="col chefs_hover">
+                <div class="chef hello">
+                    <img src="Images/chefs-1.jpg" alt="" class="w-100">
+                    <div class="info text-center">
+                        <h6 class="m-0"> Walter White </h6>
+                        <p> Master Chef </p>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col chefs_hover">
+                <div class="chef hello">
+                    <img src="Images/chefs-2.jpg" alt="" class="w-100">
+                    <div class="info text-center">
+                        <h6 class="m-0"> Sarah Jhonson </h6>
+                        <p> Patissier </p>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col chefs_hover">
+                <div class="chef hello">
+                    <img src="Images/chefs-3.jpg" alt="" class="w-100">
+                    <div class="info text-center">
+                        <h6 class="m-0"> William Anderson </h6>
+                        <p> Cook </p>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================================== Testimonials section here ===================================== -->
+
+<div id="testimonial"></div>
+
+<div class="container-fluid testimonial">
+
+  <div class="container-fluid container-lg">
+
+    <div class="row text-center d-flex justify-content-center">
+
+      <div class=" col-sm-4 col-lg-3 test g-5">
+        <div class="icon text-center">
+          <img src="images/testimonial-1.jpg" alt="">
+        </div>
+        <div class="information">
+          <p>
+            My favourite restaurant! <br>
+            Always good food and good service! <br>
+            Can't beat the price!
+          </p>
+          <h3> Nathan Felix </h3>
+          <h4> CEO, Construction </h4>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-lg-3 test mx-lg-5 g-5">
+        <div class="icon">
+          <img src="images/testimonial-2.jpg" alt="">
+        </div>
+        <div class="information">
+          <p>
+            Great food and service. <br>
+            Long time neighbourhood restaurant and st. Louis tradition.
+          </p>
+          <h3> Lillian Grace </h3>
+          <h4> Teacher </h4>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-lg-3 test g-5">
+        <div class="icon">
+          <img src="images/testimonial-3.jpg" alt="">
+        </div>
+        <div class="information">
+          <p>
+            I wanted to thank you <br>
+            for inviting me down for that amazing dinner the other night
+          </p>
+          <h3> Roman Dexter </h3>
+          <h4> Graphic Designer, Newyork </h4>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row data2 text-center">
+
+      <h1> TESTIMONIALS </h1>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ================================ partners ============================= -->
+
+ <div class="container-fluid partners">
+
+  <div class="container py-5">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 ps-5 g-5">
+
+      <div class="col">
+        <img src="images/partner_1.png" alt="" class="w-50">
+      </div>
+      <div class="col">
+        <img src="images/partner_2.png" alt="" class="w-50">
+      </div>
+      <div class="col">
+        <img src="images/partner_3.png" alt="" class="w-50">
+      </div>
+      <div class="col">
+        <img src="images/partner_4.png" alt="" class="w-50">
+      </div>
+      <div class="col">
+        <img src="images/partner_5.png" alt="" class="w-50">
+      </div>
+      <div class="col">
+        <img src="images/partner_6.png" alt="" class="w-50">
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ============================ location here ==================================== -->
+
+<div class="container-fluid location">
+
+  <div class="container">
+
+    <div class="row inside1" data-aos="zoom-in">
+
+      <div class="col-xs-12 col-md-10 col-lg-6 ps-lg-5 data1">
+
+            <h3> Find location </h3>
+            <h1 class="mb-5"> Locations of Restaurants All Over the World </h1>
+            <p class="mb-5">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventosre veritatis et quasi architecto beatae vitae dicta explicabo.
+            </p>
+            <a href="#" class="hover_btn"> <span> LEARN MORE </span> </a>
+      </div>
+
+      <div class="col-lg-6 data2 position-relative">
+
+<div class="there d-none d-xl-block">
+
+        <div class="icon_info i1">
+          <i class="fa-solid fa-location-dot icc icon1"></i>
+          <div class="insight">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+        </div>
+
+        <div class="icon_info i2">
+          <i class="fa-solid fa-location-dot icc icon2"></i>
+          <div class="insight insight2">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+        </div>
+
+        <div class="icon_info i3">
+          <i class="fa-solid fa-location-dot icc icon3"></i>
+          <div class="insight insight3">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+        </div>
+
+        <div class="icon_info i4">
+          <i class="fa-solid fa-location-dot icc icon4"></i>
+          <div class="insight insight4">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+        </div>
+
+    </div>
+
+        <div class="location_info text-center d-block 
+        d-xl-none">
+
+          <div class="inn text-white col-10">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+    
+          <div class="inn text-white col-10">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+    
+          <div class="inn text-white col-10">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+    
+          <div class="inn text-white col-10">
+            <h4> Chaska Branch </h4>
+            <p>
+              4517 Washington Ave. <br> Manchester, Kentucky 39495
+            </p>
+          </div>
+    
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ====================================  footer here ========================================= -->
+
+<div id="contact"></div>
+
+<div class="container-fluid section12 py-5">
+
+  <div class="container inside">
+
+    <div class="row d-flex justify-content-between inn g-5">
+
+      <div class="col-sm-6 col-lg-3 text-white here">
+        <h4> CHASKA </h4>
+        <h6 class="my-4"> A108 Adam Street <br> NY 535022, USA </h6>
+        <h7> <strong> Phone: </strong> +1 5589 55488 55 </h7>
+        <h7 class="mb-4"> <strong>Email:</strong> info@example.com</h7>
+        <div class="row">
+          <div class="col">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-skype"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-2 text-white second">
+        <h5 class="mb-4 todo"> Useful Links </h5>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Home </a>
+      </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> About </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Services </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Terms of service </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Privacy policy </a>
+        </h7>
+      </div>
+
+      <div class="col-sm-6 mt-sm-5 col-lg-2 text-white ps-3 third">
+        <h5 class="mb-4 todo"> Our Services </h5>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Web Design </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Web Development </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Product Management </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Marketing </a>
+        </h7>
+        <h7>
+          <i class="fa-solid fa-chevron-right"></i>
+          <a href=""> Graphic Design </a>
+        </h7>
+      </div>
+
+      <div class="col-sm-6 mt-sm-5 col-lg-4 text-white fourth">
+        <h5 class="mb-4 todo"> Our Newsletter </h5>
+        <p class="mb-lg-4 my-sm-4 my-md-5 my-lg-0"> Tamen quem nulla quae legam multos aute sint culpa legam noster magna </p>
+        <div class="input-group mb-3 last">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary change" type="button" id="button-addon2">Button</button>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ================================== credit goes here =============================== -->
+
+
+<div class="container-fluid section13 text-white text-center">
+  
+  <h6> © Copyright <span> Restaurantly </span>. All Rights Reserved </h6>
+  <p>
+    Made by <span> Hemant Singh </span>
+  </p>
+
+
+
+
+<!-- ========================================== modal here ============================== -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-body p-0 text-dark">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 bg-cover" style="background-image: url(images/italian-food.png);">
+            </div>
+            <div class="col-lg-8">
+              <form action="" class="row p-lg-5 gy-3">
+                <div class="col-12">
+                  <h1>Get in touch</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sunt.</p>
+                </div>
+
+                <div class="col-lg-6">
+
+                  <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                  <input type="text" class="form-control f_name" id="exampleFormControlInput1" placeholder="First name">
+
+                </div>
+                <div class="col-lg-6">
+
+                  <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                  <input type="text" class="form-control l_name" id="exampleFormControlInput1" placeholder="last name">
+
+                </div>
+                <div class="col-lg-12">
+
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="text" class="form-control e_mail" id="exampleFormControlInput1"
+                    placeholder="Enter your mail here">
+
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea name="" id="" cols="30" rows="4" class="form-control"
+                    placeholder="Give your message here"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="button" class="btn btn-brand">Send Message</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <script>
+
+      document.querySelector("body").onload = function(){
+        document.getElementById("loader").style.display = "none";
+      }
+
+     var check = /^[a-z]{3,20}$/i;
+
+     var fname =  document.getElementsByClassName("f_name")[0];
+
+     document.getElementsByClassName("f_name")[0].onblur = function(){
+
+      if(!fname.value.match(check)){
+        alert("Only use alphabets and length should not exceed 20 letters");
+        return false;
+      }
+     };
+
+     var lname =  document.getElementsByClassName("l_name")[0];
+
+     document.getElementsByClassName("l_name")[0].onblur = function(){
+
+      if(!lname.value.match(check)){
+        alert("Only use alphabets and length should not exceed 20 letters");
+        return false;
+      }
+     };
+
+
+ 
+    </script>
+
+
+<!-- ================================== jQuery link here ================================ -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="JS/jquery.hover3d.js"></script>
+<script>
+
+  $(function(){
+
+    $(".chefs_hover").hover3d({
+      selector: ".hello",
+    });
+
+
+
+    $(".icon2").mouseover(function(){
+      $(".insight2").css({
+        opacity: "1",
+      });
+    });
+    $(".icon2").mouseleave(function(){
+      $(".insight2").css({
+        opacity: "0",
+      });
+    });
+
+    $(".icon3").mouseover(function(){
+      $(".insight3").css({
+        opacity: "1",
+      });
+    });
+    $(".icon3").mouseleave(function(){
+      $(".insight3").css({
+        opacity: "0",
+      });
+    });
+
+    $(".icon4").mouseover(function(){
+      $(".insight4").css({
+        opacity: "1",
+      });
+    });
+    $(".icon4").mouseleave(function(){
+      $(".insight4").css({
+        opacity: "0",
+      });
+    });
+
+    var hh = $(".header").outerHeight(true);
+    $(document).scroll(function(){
+
+        var st = $(document).scrollTop();
+
+        if(st > hh){
+            $(".topbtn").fadeIn();
+
+        }else{
+            $(".topbtn").fadeOut();
+        }
+
+    });
+
+    $(".topbtn").click(function(){
+      $("html,body").animate({
+        scrollTop:0,
+      },slow)
+    });
+
+
+
+
+
+  });
+
+</script>
+
+
+
+
+
+
+
+<!-- ============================== Javascript link here ============================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1200,
+      });
+      
+
+      
+    </script>
+
+    
+</body>
+</html>
+
+
